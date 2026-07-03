@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: OnboardingAgentGitClient
+
+github:
+  models:
+    base-url: https://models.github.ai
+    api-version: 2022-11-28
+    token: ${GITHUB_TOKEN}
+    model: openai/gpt-4.1
+
+server:
+  port: 8080
+
+onboarding:
+  confluence:
+    base-url: confluence_base_url
+    email: email_id
+    api-token: confluence_token
+  word-path: C:/Users/niteesh.madharaju/OneDrive - Accenture/Documents/Capital Groups/Project/Resources/Test_App_Architecture_React_SpringBoot_DotNet.docx
+  excel-path: C:/Users/niteesh.madharaju/OneDrive - Accenture/Documents/Capital Groups/Project/Resources/java_sen_devop.xlsx
+  employee-data-path: C:/Users/niteesh.madharaju/OneDrive - Accenture/Documents/Capital Groups/Project/Resources/employee_data.xlsx
+  docs:
+    repo-intelligence:
+      - C:/Users/niteesh.madharaju/OneDrive - Accenture/Documents/Capital Groups/Project/Resources/repo-overview.docx
+    system-readiness:
+      - C:/Users/niteesh.madharaju/OneDrive - Accenture/Documents/Capital Groups/Project/Resources/dev-setup.docx
+    know-application:
+      - C:/Users/niteesh.madharaju/OneDrive - Accenture/Documents/Capital Groups/Project/Resources/Test_App_Architecture_React_SpringBoot_DotNet.docx
